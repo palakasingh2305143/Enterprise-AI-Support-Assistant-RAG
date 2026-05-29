@@ -34,3 +34,24 @@ An enterprise-grade conversational AI assistant built using OpenAI GPT, LangChai
 - CRM Integration
 - Voice Assistant
 - Ticket Classification
+
+
+## Architecture
+
+```text
+PDF Documents
+      ↓
+Text Extraction
+      ↓
+Document Chunking
+      ↓
+Embedding Generation
+      ↓
+ChromaDB Vector Store
+      ↓
+Retriever
+      ↓
+OpenAI GPT
+      ↓
+Context-Aware Responses
+```
